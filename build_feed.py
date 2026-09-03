@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Build the curated Podcast Addict RSS feed from original publisher feeds."""
+"""Build the curated Podcast Addict RSS feed using Apple episode metadata.
+
+Apple's podcast episode lookup exposes the audio URL supplied by the publisher,
+which avoids host-specific RSS blocking while keeping the enclosure on the
+original podcast host/CDN.
+"""
 
 from __future__ import annotations
 
@@ -9,6 +14,7 @@ import json
 import re
 import sys
 import unicodedata
+import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime
@@ -17,7 +23,6 @@ import xml.etree.ElementTree as ET
 
 ITUNES = "http://www.itunes.com/dtds/podcast-1.0.dtd"
 ATOM = "http://www.w3.org/2005/Atom"
-MEDIA = "http://search.yahoo.com/mrss/"
 SELF_URL = "https://raw.githubusercontent.com/RobNVermeer/ai-listening-briefing/main/ai-briefing.xml"
 REPO_URL = "https://github.com/RobNVermeer/ai-listening-briefing"
 
@@ -25,88 +30,79 @@ ET.register_namespace("itunes", ITUNES)
 ET.register_namespace("atom", ATOM)
 
 
-def text(el: ET.Element | None) -> str:
-    return (el.text or "").strip() if el is not None else ""
-
-
 def norm(value: str) -> str:
-    value = html.unescape(value)
+    value = html.unescape(value or "")
     value = unicodedata.normalize("NFKD", value).lower()
     value = value.replace("&", " and ")
     value = re.sub(r"[^a-z0-9]+", " ", value)
     return " ".join(value.split())
 
 
-def fetch_xml(url: str) -> ET.Element:
+def fetch_json(url: str) -> dict:
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "Rob-AI-Listening-Briefing/1.0 (+https://github.com/RobNVermeer/ai-listening-briefing)",
-            "Accept": "application/rss+xml, application/xml, text/xml, */*",
+            "User-Agent": "Rob-AI-Listening-Briefing/1.0",
+            "Accept": "application/json, */*",
         },
     )
     with urllib.request.urlopen(req, timeout=30) as response:
-        return ET.fromstring(response.read())
+        return json.loads(response.read().decode("utf-8"))
 
 
-def get_channel(root: ET.Element) -> ET.Element:
-    channel = root.find("channel")
-    if channel is None:
-        raise RuntimeError("Expected RSS <channel> but none was found")
-    return channel
+def apple_episodes(show_id: int) -> list[dict]:
+    query = urllib.parse.urlencode(
+        {
+            "id": str(show_id),
+            "country": "US",
+            "media": "podcast",
+            "entity": "podcastEpisode",
+            "limit": "200",
+        }
+    )
+    payload = fetch_json(f"https://itunes.apple.com/lookup?{query}")
+    return [
+        result
+        for result in payload.get("results", [])
+        if result.get("wrapperType") == "podcastEpisode"
+        or result.get("kind") == "podcast-episode"
+    ]
 
 
-def find_episode(channel: ET.Element, wanted_title: str) -> ET.Element:
+def find_episode(episodes: list[dict], wanted_title: str) -> dict:
     wanted = norm(wanted_title)
-    items = channel.findall("item")
-
-    exact = [i for i in items if norm(text(i.find("title"))) == wanted]
+    exact = [ep for ep in episodes if norm(ep.get("trackName", "")) == wanted]
     if exact:
         return exact[0]
 
     partial = [
-        i
-        for i in items
-        if wanted in norm(text(i.find("title"))) or norm(text(i.find("title"))) in wanted
+        ep
+        for ep in episodes
+        if wanted in norm(ep.get("trackName", ""))
+        or norm(ep.get("trackName", "")) in wanted
     ]
     if len(partial) == 1:
         return partial[0]
 
-    recent = "\n".join(f"  - {text(i.find('title'))}" for i in items[:25])
+    recent = "\n".join(f"  - {ep.get('trackName', '')}" for ep in episodes[:30])
     raise RuntimeError(
-        f"Could not uniquely match episode title: {wanted_title!r}. Recent titles:\n{recent}"
+        f"Could not uniquely match episode title: {wanted_title!r}. Recent Apple titles:\n{recent}"
     )
 
 
-def get_enclosure(item: ET.Element) -> dict[str, str]:
-    enclosure = item.find("enclosure")
-    if enclosure is not None and enclosure.attrib.get("url"):
-        return {
-            "url": enclosure.attrib["url"],
-            "length": enclosure.attrib.get("length", "0"),
-            "type": enclosure.attrib.get("type", "audio/mpeg"),
-        }
-
-    media = item.find(f"{{{MEDIA}}}content")
-    if media is not None and media.attrib.get("url"):
-        return {
-            "url": media.attrib["url"],
-            "length": media.attrib.get("fileSize", "0"),
-            "type": media.attrib.get("type", "audio/mpeg"),
-        }
-
-    raise RuntimeError(f"No playable audio enclosure for {text(item.find('title'))!r}")
+def duration_from_ms(ms: int | None) -> str:
+    if not ms:
+        return ""
+    seconds = int(ms) // 1000
+    hours, rem = divmod(seconds, 3600)
+    minutes, seconds = divmod(rem, 60)
+    return f"{hours:02d}:{minutes:02d}:{seconds:02d}"
 
 
-def stable_guid(feed_url: str, item: ET.Element) -> str:
-    original = text(item.find("guid")) or text(item.find("link")) or text(item.find("title"))
-    digest = hashlib.sha256(f"{feed_url}|{original}".encode("utf-8")).hexdigest()[:24]
+def stable_guid(show_id: int, ep: dict) -> str:
+    original = str(ep.get("episodeGuid") or ep.get("trackId") or ep.get("episodeUrl") or ep.get("trackName"))
+    digest = hashlib.sha256(f"{show_id}|{original}".encode("utf-8")).hexdigest()[:24]
     return f"rob-ai-briefing-{digest}"
-
-
-def original_date(item: ET.Element) -> str:
-    raw = text(item.find("pubDate"))
-    return raw or "Original publication date unavailable"
 
 
 def build() -> None:
@@ -115,8 +111,7 @@ def build() -> None:
     if not editions:
         raise RuntimeError("selection.json has no editions")
 
-    # Fetch each publisher feed only once.
-    feed_cache: dict[str, tuple[ET.Element, str]] = {}
+    show_cache: dict[int, list[dict]] = {}
     resolved: list[dict] = []
 
     for edition in editions:
@@ -127,44 +122,41 @@ def build() -> None:
         )
 
         for sel in selections:
-            url = sel["feed_url"]
-            if url not in feed_cache:
-                source_root = fetch_xml(url)
-                source_channel = get_channel(source_root)
-                feed_cache[url] = (source_channel, text(source_channel.find("title")) or "Podcast")
+            show_id = int(sel["apple_show_id"])
+            if show_id not in show_cache:
+                show_cache[show_id] = apple_episodes(show_id)
+                if not show_cache[show_id]:
+                    raise RuntimeError(f"Apple returned no episodes for show {show_id}")
 
-            source_channel, show_title = feed_cache[url]
-            item = find_episode(source_channel, sel["episode_title"])
-            enclosure = get_enclosure(item)
-            duration = text(item.find(f"{{{ITUNES}}}duration"))
-            link = text(item.find("link"))
+            ep = find_episode(show_cache[show_id], sel["episode_title"])
+            audio_url = ep.get("episodeUrl")
+            if not audio_url:
+                raise RuntimeError(f"Apple returned no audio URL for {ep.get('trackName')!r}")
+
             slot = sel.get("slot", "core")
             order = int(sel["order"])
-
-            if slot == "bonus":
-                prefix = "[BONUS]"
-            else:
-                prefix = f"[{order}/{core_count}]"
-
+            prefix = "[BONUS]" if slot == "bonus" else f"[{order}/{core_count}]"
             resolved.append(
                 {
                     "edition_date": edition["date"],
                     "edition_title": edition["title"],
                     "synthetic_date": edition_base - timedelta(minutes=order - 1),
                     "prefix": prefix,
-                    "show_title": show_title,
-                    "episode_title": text(item.find("title")),
+                    "show_title": ep.get("collectionName") or "Podcast",
+                    "episode_title": ep.get("trackName") or sel["episode_title"],
                     "why": sel["why"],
-                    "original_date": original_date(item),
-                    "link": link,
-                    "guid": stable_guid(url, item),
-                    "enclosure": enclosure,
-                    "duration": duration,
-                    "slot": slot,
+                    "original_date": ep.get("releaseDate") or "Original publication date unavailable",
+                    "link": ep.get("trackViewUrl") or ep.get("collectionViewUrl") or "",
+                    "guid": stable_guid(show_id, ep),
+                    "enclosure": {
+                        "url": audio_url,
+                        "length": "0",
+                        "type": "audio/mpeg",
+                    },
+                    "duration": duration_from_ms(ep.get("trackTimeMillis")),
                 }
             )
 
-    # Newest edition first; within an edition, listening order is preserved by synthetic pubDate.
     resolved.sort(key=lambda x: x["synthetic_date"], reverse=True)
 
     root = ET.Element("rss", {"version": "2.0"})
@@ -195,13 +187,12 @@ def build() -> None:
         ET.SubElement(item, "title").text = (
             f"{ep['prefix']} {ep['episode_title']} — {ep['show_title']}"
         )
-        description = (
+        ET.SubElement(item, "description").text = (
             f"Edition: {ep['edition_date']} — {ep['edition_title']}\n\n"
             f"Why it matters: {ep['why']}\n\n"
             f"Source: {ep['show_title']}\n"
             f"Original publication: {ep['original_date']}"
         )
-        ET.SubElement(item, "description").text = description
         if ep["link"]:
             ET.SubElement(item, "link").text = ep["link"]
         ET.SubElement(item, "pubDate").text = format_datetime(ep["synthetic_date"])
