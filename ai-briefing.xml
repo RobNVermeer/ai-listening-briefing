@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Rob's Serious AI Listening Briefing</title>
+    <link>https://github.com/RobNVermeer/ai-listening-briefing</link>
+    <atom:link href="https://raw.githubusercontent.com/RobNVermeer/ai-listening-briefing/main/ai-briefing.xml" rel="self" type="application/rss+xml" />
+    <description>A weekly, no-fluff curated listening feed on AI mechanisms, models, agents, compute, business models, economics, enterprise adoption and regulation. Curated by ChatGPT for Rob.</description>
+    <language>en</language>
+    <lastBuildDate>Thu, 03 Sep 2026 16:03:00 GMT</lastBuildDate>
+    <itunes:author>AI Listening Briefing</itunes:author>
+    <itunes:summary>A serious weekly AI listening programme. Original audio remains hosted by the original podcast publishers.</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:block>yes</itunes:block>
+
+    <item>
+      <title>Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture — No Priors</title>
+      <description>Business-model and economics lens: market size, outcome-based pricing, founder ambition, token budgets and the risk of regulatory capture.</description>
+      <pubDate>Thu, 06 Aug 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">ai-briefing-nopriors-2026-08-06</guid>
+      <enclosure url="https://traffic.megaphone.fm/PDP3190127956.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>00:39:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>The Inference Engineering Masterclass — Philip Kiely &amp; Ali Taha, Baseten — Latent Space</title>
+      <description>Mechanisms and infrastructure: KV-cache routing, disaggregated prefill/decode, quantization, speculative decoding, model parallelism, GPU kernels and inference economics.</description>
+      <pubDate>Mon, 03 Aug 2026 21:44:00 GMT</pubDate>
+      <guid isPermaLink="false">ai-briefing-latentspace-2026-08-03-inference</guid>
+      <enclosure url="https://api.substack.com/feed/podcast/209198968/9812df16b361bc5838e1961cf85b91ac.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>01:41:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Why smarter AI models could drive up compute prices 10x — Dwarkesh Podcast</title>
+      <description>Short economics-of-compute briefing on why increasingly capable models can raise, rather than simply lower, demand and prices for usable compute.</description>
+      <pubDate>Mon, 03 Aug 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">ai-briefing-dwarkesh-2026-08-03-compute</guid>
+      <enclosure url="https://api.substack.com/feed/podcast/209664458/8c9917a2fbb3712135ff3b9d5736d797.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>00:11:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
