@@ -1,0 +1,47 @@
+{
+  "feed_title": "Rob's Serious AI Listening Briefing",
+  "feed_description": "A weekly, no-fluff curated listening feed on AI mechanisms, models, agents, compute, business models, economics, enterprise adoption and regulation.",
+  "editions": [
+    {
+      "date": "2026-09-03",
+      "title": "Agents, architecture, compute and assurance",
+      "selections": [
+        {
+          "order": 1,
+          "slot": "core",
+          "feed_url": "https://api.substack.com/feed/podcast/69345.rss",
+          "episode_title": "The rise and fall of agent civilizations",
+          "why": "Start here for the capability shift. A compact account of what happened when many coding agents were allowed to operate together, what emergent coordination looked like, where the system failed, and why multi-agent security now deserves to be treated as an engineering problem rather than science fiction."
+        },
+        {
+          "order": 2,
+          "slot": "core",
+          "feed_url": "https://feeds.transistor.fm/practical-ai-machine-learning-data-science-llm",
+          "episode_title": "Less about Models; More about Architecture",
+          "why": "The enterprise reality check. The useful question is increasingly not which model wins a benchmark, but how models are wrapped in architecture, context, tools, data, evaluation and controls. This is a good bridge from frontier capability to deployable systems."
+        },
+        {
+          "order": 3,
+          "slot": "core",
+          "feed_url": "https://feeds.megaphone.fm/nopriors",
+          "episode_title": "Redefining Chip Architecture with Arm CEO Rene Haas",
+          "why": "The compute layer beneath the model race. Focus on how AI changes CPU and data-center architecture, Arm's move beyond pure IP licensing, supply-chain constraints, hyperscaler demand and where economic power may shift as inference scales."
+        },
+        {
+          "order": 4,
+          "slot": "core",
+          "feed_url": "https://feeds.acast.com/public/shows/arbiters-of-truth",
+          "episode_title": "Building AI Assurance Ecosystem with Bri Treece (PACT AI) and Dr. Rob Slone (UL Solutions)",
+          "why": "Regulation only matters if institutions can measure and verify systems. This gets concrete about assurance, continuous evaluation, standards, independent testing and the missing infrastructure between high-level AI rules and real-world enforcement."
+        },
+        {
+          "order": 5,
+          "slot": "bonus",
+          "feed_url": "https://feeds.megaphone.fm/nopriors",
+          "episode_title": "Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah & Elad",
+          "why": "Optional business/economics extension. Useful on outcome-based pricing, token and compute budgets, what could support trillion-dollar AI companies, and how regulation can become either a safety mechanism or a moat for incumbents."
+        }
+      ]
+    }
+  ]
+}
