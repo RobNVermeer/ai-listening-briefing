@@ -45,28 +45,28 @@
     },
     {
       "date": "2026-09-10",
-      "title": "Frontier pacing, open infrastructure and the workflow bottleneck",
+      "title": "Foundation week: LLM mechanics, reasoning and the compute bottleneck",
       "selections": [
         {
           "order": 1,
           "slot": "core",
-          "apple_show_id": 1510472996,
-          "episode_title": "AI 2040: Plan A report - Daniel Kokotajlo & Thomas Larsen",
-          "why": "Start with the hardest strategic question of the week: whether frontier AI development should be deliberately slowed, what a credible pause would actually buy, and where the AI 2040 Plan A proposal is robust or speculative. MLST's long-form format is useful here because it pushes beyond slogans into assumptions about takeoff speed, control, coordination and governance."
+          "apple_show_id": 1707117410,
+          "episode_title": "How LLMs Actually Work",
+          "why": "Begin with the machinery. This is a compact, accessible explanation of next-token prediction, neural networks, attention, training, hallucination and retrieval-augmented generation. The goal is to build enough of a mental model that later discussions of architecture, reasoning and agents have something concrete to attach to."
         },
         {
           "order": 2,
           "slot": "core",
-          "apple_show_id": 417826820,
-          "episode_title": "How Open-Source is Reshaping the AI Infrastructure Stack",
-          "why": "Move from frontier governance to the stack beneath enterprise AI. David Aronchick brings unusually relevant infrastructure experience from Kubernetes, Kubeflow and Azure; the useful lens is where open models and open infrastructure create durable leverage, where hyperscaler economics still dominate, and what enterprises should actually own versus rent."
+          "apple_show_id": 1116303051,
+          "episode_title": "AI Trends 2026: OpenClaw Agents, Reasoning LLMs, and More with Sebastian Raschka",
+          "why": "Now move from the basic transformer-era model to the modern stack. Sebastian Raschka explains why progress has shifted toward post-training, verifiable-reward reinforcement learning, inference-time reasoning and tool use; he also covers mixture-of-experts, attention efficiency, long context and where agentic systems still fail."
         },
         {
           "order": 3,
           "slot": "core",
-          "apple_show_id": 1859440547,
-          "episode_title": "Fast AI. Slow workflow.",
-          "why": "Finish at the operational layer. Faster inference and stronger coding agents do not automatically accelerate delivery when approvals, context gathering, repository complexity, debugging and human coordination remain serial bottlenecks. This is the practical counterweight to benchmark-driven narratives about AI productivity."
+          "apple_show_id": 1746352576,
+          "episode_title": "Memory chip mania isn’t going away, with Dan Kim",
+          "why": "Finish underneath the models. AI compute is not just about NVIDIA GPUs: memory bandwidth and high-bandwidth memory are becoming binding constraints. This recent FT discussion connects the technical bottleneck to supply, pricing, data-centre economics, China, industrial policy and the physical limits behind continued AI scaling."
         }
       ]
     }
