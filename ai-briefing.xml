@@ -15,48 +15,48 @@
     <itunes:block>yes</itunes:block>
     <itunes:type>episodic</itunes:type>
     <item>
-      <title>[1/3] AI 2040: Plan A report - Daniel Kokotajlo &amp; Thomas Larsen — Machine Learning Street Talk (MLST)</title>
-      <description>Edition: 2026-09-10 — Frontier pacing, open infrastructure and the workflow bottleneck
+      <title>[1/3] How LLMs Actually Work — AI Knowhow</title>
+      <description>Edition: 2026-09-10 — Foundation week: LLM mechanics, reasoning and the compute bottleneck
 
-Why it matters: Start with the hardest strategic question of the week: whether frontier AI development should be deliberately slowed, what a credible pause would actually buy, and where the AI 2040 Plan A proposal is robust or speculative. MLST's long-form format is useful here because it pushes beyond slogans into assumptions about takeoff speed, control, coordination and governance.
+Why it matters: Begin with the machinery. This is a compact, accessible explanation of next-token prediction, neural networks, attention, training, hallucination and retrieval-augmented generation. The goal is to build enough of a mental model that later discussions of architecture, reasoning and agents have something concrete to attach to.
 
-Source: Machine Learning Street Talk (MLST)
-Original publication: 2026-09-08T11:27:44Z</description>
-      <link>https://podcasts.apple.com/us/podcast/ai-2040-plan-a-report-daniel-kokotajlo-thomas-larsen/id1510472996?i=1000788456496&amp;uo=4</link>
+Source: AI Knowhow
+Original publication: 2024-12-02T09:46:00Z</description>
+      <link>https://podcasts.apple.com/us/podcast/how-llms-actually-work/id1707117410?i=1000678883347&amp;uo=4</link>
       <pubDate>Thu, 10 Sep 2026 18:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rob-ai-briefing-d6c0258ad13179861964178c</guid>
-      <enclosure url="https://traffic.megaphone.fm/APO5978647077.mp3" length="0" type="audio/mpeg" />
-      <itunes:duration>01:29:46</itunes:duration>
+      <guid isPermaLink="false">rob-ai-briefing-6b2636e9b455be54f2640c6e</guid>
+      <enclosure url="https://traffic.libsyn.com/secure/58976c86-eaa3-4e58-aba0-ab6253e8c78e/063_Knownwell.mp3?dest-id=4143798" length="0" type="audio/mpeg" />
+      <itunes:duration>00:35:12</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>[2/3] How Open-Source is Reshaping the AI Infrastructure Stack — The Enterprise AI Show</title>
-      <description>Edition: 2026-09-10 — Frontier pacing, open infrastructure and the workflow bottleneck
+      <title>[2/3] AI Trends 2026: OpenClaw Agents, Reasoning LLMs, and More with Sebastian Raschka — The TWIML AI Podcast (formerly This Week in Machine Learning &amp; Artificial Intelligence)</title>
+      <description>Edition: 2026-09-10 — Foundation week: LLM mechanics, reasoning and the compute bottleneck
 
-Why it matters: Move from frontier governance to the stack beneath enterprise AI. David Aronchick brings unusually relevant infrastructure experience from Kubernetes, Kubeflow and Azure; the useful lens is where open models and open infrastructure create durable leverage, where hyperscaler economics still dominate, and what enterprises should actually own versus rent.
+Why it matters: Now move from the basic transformer-era model to the modern stack. Sebastian Raschka explains why progress has shifted toward post-training, verifiable-reward reinforcement learning, inference-time reasoning and tool use; he also covers mixture-of-experts, attention efficiency, long context and where agentic systems still fail.
 
-Source: The Enterprise AI Show
-Original publication: 2026-09-09T05:00:00Z</description>
-      <link>https://podcasts.apple.com/us/podcast/how-open-source-is-reshaping-the-ai-infrastructure-stack/id417826820?i=1000788602643&amp;uo=4</link>
+Source: The TWIML AI Podcast (formerly This Week in Machine Learning &amp; Artificial Intelligence)
+Original publication: 2026-02-26T23:52:00Z</description>
+      <link>https://podcasts.apple.com/us/podcast/ai-trends-2026-openclaw-agents-reasoning-llms-and/id1116303051?i=1000751830991&amp;uo=4</link>
       <pubDate>Thu, 10 Sep 2026 17:59:00 +0000</pubDate>
-      <guid isPermaLink="false">rob-ai-briefing-9adce5665b89f674ff9215c7</guid>
-      <enclosure url="https://www.buzzsprout.com/3195/episodes/19776449-how-open-source-is-reshaping-the-ai-infrastructure-stack.mp3" length="0" type="audio/mpeg" />
-      <itunes:duration>00:42:20</itunes:duration>
+      <guid isPermaLink="false">rob-ai-briefing-270bb3665259fd7916366788</guid>
+      <enclosure url="https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN2274417899.mp3?updated=1772147656" length="0" type="audio/mpeg" />
+      <itunes:duration>01:18:55</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>[3/3] Fast AI. Slow workflow. — AI Infrastructure</title>
-      <description>Edition: 2026-09-10 — Frontier pacing, open infrastructure and the workflow bottleneck
+      <title>[3/3] Memory chip mania isn’t going away, with Dan Kim — The Economics Show</title>
+      <description>Edition: 2026-09-10 — Foundation week: LLM mechanics, reasoning and the compute bottleneck
 
-Why it matters: Finish at the operational layer. Faster inference and stronger coding agents do not automatically accelerate delivery when approvals, context gathering, repository complexity, debugging and human coordination remain serial bottlenecks. This is the practical counterweight to benchmark-driven narratives about AI productivity.
+Why it matters: Finish underneath the models. AI compute is not just about NVIDIA GPUs: memory bandwidth and high-bandwidth memory are becoming binding constraints. This recent FT discussion connects the technical bottleneck to supply, pricing, data-centre economics, China, industrial policy and the physical limits behind continued AI scaling.
 
-Source: AI Infrastructure
-Original publication: 2026-09-09T10:13:27Z</description>
-      <link>https://podcasts.apple.com/us/podcast/fast-ai-slow-workflow/id1859440547?i=1000788661337&amp;uo=4</link>
+Source: The Economics Show
+Original publication: 2026-09-04T04:00:00Z</description>
+      <link>https://podcasts.apple.com/us/podcast/memory-chip-mania-isnt-going-away-with-dan-kim/id1746352576?i=1000787773485&amp;uo=4</link>
       <pubDate>Thu, 10 Sep 2026 17:58:00 +0000</pubDate>
-      <guid isPermaLink="false">rob-ai-briefing-e32f20f1707095e8f0e04d1b</guid>
-      <enclosure url="https://dabase.com/podcast/audio/043-fast-ai-slow-workflow-i17ft8suunQ.mp3" length="0" type="audio/mpeg" />
-      <itunes:duration>00:35:07</itunes:duration>
+      <guid isPermaLink="false">rob-ai-briefing-5a3bbcc9cfdd7519e55eabc4</guid>
+      <enclosure url="https://sphinx.acast.com/p/open/s/664394a442f6710013618119/e/6a99a70ae7a9fe24787b145f/media.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>00:32:16</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
