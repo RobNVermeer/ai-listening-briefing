@@ -1,6 +1,6 @@
 {
   "feed_title": "Rob's Serious AI Listening Briefing",
-  "feed_description": "A weekly, no-fluff curated listening feed on AI mechanisms, models, agents, compute, business models, economics, enterprise adoption and regulation.",
+  "feed_description": "A daily, no-fluff curated listening feed on AI mechanisms, models, agents, compute, business models, economics, enterprise adoption and regulation.",
   "editions": [
     {
       "date": "2026-09-03",
@@ -67,6 +67,26 @@
           "apple_show_id": 1746352576,
           "episode_title": "Memory chip mania isn’t going away, with Dan Kim",
           "why": "Finish underneath the models. AI compute is not just about NVIDIA GPUs: memory bandwidth and high-bandwidth memory are becoming binding constraints. This recent FT discussion connects the technical bottleneck to supply, pricing, data-centre economics, China, industrial policy and the physical limits behind continued AI scaling."
+        }
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "title": "Daily 1: Architecture under the hood, then Astra from the builder",
+      "selections": [
+        {
+          "order": 1,
+          "slot": "core",
+          "apple_show_id": 1610318868,
+          "episode_title": "LLM Architecture in 2026: What You Need to Know with Sebastian Raschka",
+          "why": "Today’s foundation slot goes deeper under the hood. Raschka walks through how modern LLM architecture has evolved beyond a plain transformer: post-training, inference-time scaling, hybrid architectures, attention variants, KV-cache efficiency, reasoning systems and why implementation details matter. It is the right bridge from a basic mental model of LLMs to understanding why current frontier systems behave and cost the way they do."
+        },
+        {
+          "order": 2,
+          "slot": "core",
+          "apple_show_id": 1772360235,
+          "episode_title": "Greg Brockman on Astra and the Future of OpenAI",
+          "why": "For the current slot, hear the builder’s account rather than a recap. OpenAI president Greg Brockman discusses what Astra changes about computer use and agents, what OpenAI learned from Operator, and how the company thinks about AI systems that carry out longer-running tasks. Treat the capability and scientific claims as OpenAI’s own framing, not independent validation; the value here is direct access to the product and research thesis behind the release."
         }
       ]
     }
