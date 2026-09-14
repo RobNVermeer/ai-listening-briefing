@@ -4,16 +4,46 @@
     <title>Rob's Serious AI Listening Briefing</title>
     <link>https://github.com/RobNVermeer/ai-listening-briefing</link>
     <atom:link href="https://raw.githubusercontent.com/RobNVermeer/ai-listening-briefing/main/ai-briefing.xml" rel="self" type="application/rss+xml" />
-    <description>A weekly, no-fluff curated listening feed on AI mechanisms, models, agents, compute, business models, economics, enterprise adoption and regulation.</description>
+    <description>A daily, no-fluff curated listening feed on AI mechanisms, models, agents, compute, business models, economics, enterprise adoption and regulation.</description>
     <language>en</language>
     <generator>Rob AI Listening Briefing feed builder</generator>
     <ttl>60</ttl>
-    <lastBuildDate>Thu, 10 Sep 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 18:00:00 +0000</lastBuildDate>
     <itunes:author>AI Listening Briefing</itunes:author>
     <itunes:summary>A serious weekly AI listening programme curated from original podcast publishers.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>yes</itunes:block>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>[1/2] LLM Architecture in 2026: What You Need to Know with Sebastian Raschka — Vanishing Gradients</title>
+      <description>Edition: 2026-09-14 — Daily 1: Architecture under the hood, then Astra from the builder
+
+Why it matters: Today’s foundation slot goes deeper under the hood. Raschka walks through how modern LLM architecture has evolved beyond a plain transformer: post-training, inference-time scaling, hybrid architectures, attention variants, KV-cache efficiency, reasoning systems and why implementation details matter. It is the right bridge from a basic mental model of LLMs to understanding why current frontier systems behave and cost the way they do.
+
+Source: Vanishing Gradients
+Original publication: 2026-04-13T02:52:27Z</description>
+      <link>https://podcasts.apple.com/us/podcast/llm-architecture-in-2026-what-you-need-to-know-with/id1610318868?i=1000761022875&amp;uo=4</link>
+      <pubDate>Mon, 14 Sep 2026 18:00:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-3a3b9518f3d63f29db170449</guid>
+      <enclosure url="https://api.substack.com/feed/podcast/194026308/c9e012a9f1d548c39da8bd29e7514798.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>01:18:02</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>[2/2] Greg Brockman on Astra and the Future of OpenAI — TBPN</title>
+      <description>Edition: 2026-09-14 — Daily 1: Architecture under the hood, then Astra from the builder
+
+Why it matters: For the current slot, hear the builder’s account rather than a recap. OpenAI president Greg Brockman discusses what Astra changes about computer use and agents, what OpenAI learned from Operator, and how the company thinks about AI systems that carry out longer-running tasks. Treat the capability and scientific claims as OpenAI’s own framing, not independent validation; the value here is direct access to the product and research thesis behind the release.
+
+Source: TBPN
+Original publication: 2026-09-08T21:50:23Z</description>
+      <link>https://podcasts.apple.com/us/podcast/greg-brockman-on-astra-and-the-future-of-openai/id1772360235?i=1000788540576&amp;uo=4</link>
+      <pubDate>Mon, 14 Sep 2026 17:59:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-6d960d1c0bbb39949e9f30e7</guid>
+      <enclosure url="https://media.transistor.fm/b4fe5e02/4f9ecf4a.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>00:24:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>[1/3] How LLMs Actually Work — AI Knowhow</title>
       <description>Edition: 2026-09-10 — Foundation week: LLM mechanics, reasoning and the compute bottleneck
