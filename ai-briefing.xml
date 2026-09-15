@@ -8,12 +8,42 @@
     <language>en</language>
     <generator>Rob AI Listening Briefing feed builder</generator>
     <ttl>60</ttl>
-    <lastBuildDate>Mon, 14 Sep 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 18:00:00 +0000</lastBuildDate>
     <itunes:author>AI Listening Briefing</itunes:author>
     <itunes:summary>A serious weekly AI listening programme curated from original podcast publishers.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>yes</itunes:block>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>[1/2] 303 - How LLMs Work - the 20 minute explainer — Fragmented - AI Developer Podcast</title>
+      <description>Edition: 2026-09-15 — Daily 2: LLM vocabulary from the ground up, then stress-testing Astra
+
+Why it matters: Reset the foundation at the right level. This recent explainer builds a usable mental model from words to tokens, tokens to embeddings, and embeddings to inference, then introduces temperature and sampling. The aim is not to make you an ML engineer; it is to make the vocabulary in later episodes intelligible before we move on to transformers, training, reasoning and agents.
+
+Source: Fragmented - AI Developer Podcast
+Original publication: 2026-02-02T08:00:00Z</description>
+      <link>https://podcasts.apple.com/us/podcast/303-how-llms-work-the-20-minute-explainer/id968779958?i=1000747668703&amp;uo=4</link>
+      <pubDate>Tue, 15 Sep 2026 18:00:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-92c7dcad6b7b45ac27638b81</guid>
+      <enclosure url="https://cdn.simplecast.com/audio/20f35050-e836-44cd-8f7f-fd13e8cb2e44/episodes/d0e8970a-e53d-453d-92be-1061cc6a1077/audio/edc5a514-6970-472d-a6c5-ae9fab11751e/default_tc.mp3?aid=rss_feed&amp;feed=LpAGSLnY" length="0" type="audio/mpeg" />
+      <itunes:duration>00:25:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>[2/2] GPT-6 Astra: The System Card, Alignment and What Comes Next — Don't Worry About the Vase Podcast</title>
+      <description>Edition: 2026-09-15 — Daily 2: LLM vocabulary from the ground up, then stress-testing Astra
+
+Why it matters: Yesterday you heard Astra from OpenAI president Greg Brockman. Today, Zvi Mowshowitz works through the actual Astra system card and external evaluations, focusing on the gap between strong capability/safety claims and what the evaluations establish. Pay particular attention to critical cyber capability, evaluation awareness, metagaming, alignment claims and reduced chain-of-thought monitorability. This is a critical reading rather than neutral reporting, so treat Zvi's conclusions as an interpretation too; the primary evidence is OpenAI's system card and the cited external evaluations.
+
+Source: Don't Worry About the Vase Podcast
+Original publication: 2026-09-10T20:56:19Z</description>
+      <link>https://podcasts.apple.com/us/podcast/gpt-6-astra-the-system-card-alignment-and-what-comes-next/id1758579881?i=1000788914419&amp;uo=4</link>
+      <pubDate>Tue, 15 Sep 2026 17:59:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-985f72cb1ccbd5373550048e</guid>
+      <enclosure url="https://api.substack.com/feed/podcast/215114322/e2166dd781f86640a74c646d30145dbf.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>01:11:32</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>[1/2] LLM Architecture in 2026: What You Need to Know with Sebastian Raschka — Vanishing Gradients</title>
       <description>Edition: 2026-09-14 — Daily 1: Architecture under the hood, then Astra from the builder
