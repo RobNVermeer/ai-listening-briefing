@@ -8,12 +8,42 @@
     <language>en</language>
     <generator>Rob AI Listening Briefing feed builder</generator>
     <ttl>60</ttl>
-    <lastBuildDate>Tue, 15 Sep 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 18:00:00 +0000</lastBuildDate>
     <itunes:author>AI Listening Briefing</itunes:author>
     <itunes:summary>A serious weekly AI listening programme curated from original podcast publishers.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>yes</itunes:block>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>[1/2] An Agent Is Just an LLM in a For-Loop — The Data Exchange with Ben Lorica</title>
+      <description>Edition: 2026-09-16 — Daily 3: From embeddings to attention and agents, then who grades the models?
+
+Why it matters: Build directly on yesterday's Fragmented explainer without jumping back into architecture jargon. Maarten Grootendorst, co-author of Hands-On Large Language Models and An Illustrated Guide to AI Agents, revisits embeddings, adds attention as the next core mechanism, and then shows how an LLM becomes an agent when you put it in a loop with tools and memory. The useful mental progression is embeddings → attention → model call → loop → tools/memory, with practical discussion of where agents work and fail.
+
+Source: The Data Exchange with Ben Lorica
+Original publication: 2026-08-20T11:00:00Z</description>
+      <link>https://podcasts.apple.com/us/podcast/an-agent-is-just-an-llm-in-a-for-loop/id1487704458?i=1000784580358&amp;uo=4</link>
+      <pubDate>Wed, 16 Sep 2026 18:00:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-984d3931bd0a151e0073280d</guid>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/www.buzzsprout.com/682433/episodes/19638187-an-agent-is-just-an-llm-in-a-for-loop.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>00:35:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>[2/2] Who Grades the AI Models? | Ben Horowitz &amp; Rayan Krishnan — The a16z Show</title>
+      <description>Edition: 2026-09-16 — Daily 3: From embeddings to attention and agents, then who grades the models?
+
+Why it matters: After two days of Astra claims and counterclaims, step back and learn how model claims are actually tested. Rayan Krishnan of independent evaluator Vals explains why public benchmarks saturate, why self-reported scores can mislead, how private and continuously changing evals work, and why agent evaluation is harder when tasks unfold over hours or days. Treat Vals' case for independent evaluation as an interested perspective too: the episode is hosted by a16z and is not itself an audit. Its value is the framework for asking what evidence should count before believing the next frontier-model claim.
+
+Source: The a16z Show
+Original publication: 2026-09-09T10:00:00Z</description>
+      <link>https://podcasts.apple.com/us/podcast/who-grades-the-ai-models-ben-horowitz-rayan-krishnan/id842818711?i=1000788656467&amp;uo=4</link>
+      <pubDate>Wed, 16 Sep 2026 17:59:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-1d08018a824463aa3c8f243c</guid>
+      <enclosure url="https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/ba494c31-cd47-4bae-a5d5-89304f960936/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&amp;awEpisodeId=ba494c31-cd47-4bae-a5d5-89304f960936&amp;feed=JGE3yC0V" length="0" type="audio/mpeg" />
+      <itunes:duration>00:39:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>[1/2] 303 - How LLMs Work - the 20 minute explainer — Fragmented - AI Developer Podcast</title>
       <description>Edition: 2026-09-15 — Daily 2: LLM vocabulary from the ground up, then stress-testing Astra
