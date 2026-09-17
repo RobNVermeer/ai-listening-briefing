@@ -45,6 +45,14 @@
         {"order": 1, "slot": "core", "apple_show_id": 1487704458, "episode_title": "An Agent Is Just an LLM in a For-Loop", "why": "Build directly on yesterday's Fragmented explainer without jumping back into architecture jargon. Maarten Grootendorst, co-author of Hands-On Large Language Models and An Illustrated Guide to AI Agents, revisits embeddings, adds attention as the next core mechanism, and then shows how an LLM becomes an agent when you put it in a loop with tools and memory. The useful mental progression is embeddings → attention → model call → loop → tools/memory, with practical discussion of where agents work and fail."},
         {"order": 2, "slot": "core", "apple_show_id": 842818711, "episode_title": "Who Grades the AI Models? | Ben Horowitz & Rayan Krishnan", "why": "After two days of Astra claims and counterclaims, step back and learn how model claims are actually tested. Rayan Krishnan of independent evaluator Vals explains why public benchmarks saturate, why self-reported scores can mislead, how private and continuously changing evals work, and why agent evaluation is harder when tasks unfold over hours or days. Treat Vals' case for independent evaluation as an interested perspective too: the episode is hosted by a16z and is not itself an audit. Its value is the framework for asking what evidence should count before believing the next frontier-model claim."}
       ]
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Daily 4: Attention without the jargon, then stress-testing the AI panic",
+      "selections": [
+        {"order": 1, "slot": "core", "apple_show_id": 1778370256, "episode_title": "Module 2: Inside the Transformer -The Math That Makes Attention Work", "why": "This is the clean next lesson after tokens and embeddings. In about twelve minutes, Shay Dhar explains the transformer's attention mechanism in plain language, then introduces queries, keys and values, dot products, softmax and weighted sums without assuming ML fluency. It is unusually close to the concise, concept-by-concept teaching style that made Fragmented 303 work so well for you."},
+        {"order": 2, "slot": "core", "apple_show_id": 1346207297, "episode_title": "Our Great Big AI Freakout", "why": "The frontier slot deliberately challenges the safety-heavy sequence of the past few days. Vox's Sean Rameswaram and Wired senior writer Maxwell Zeff examine the new calls from AI insiders to slow frontier development, including the real evidence from agent-control incidents, while also asking whether labs benefit reputationally and competitively from framing themselves as builders of uniquely dangerous technology. The point is not to dismiss the incidents or accept existential-risk claims: it is to separate observed failures from extrapolations about future catastrophe, and technical evidence from incentives and politics."}
+      ]
     }
   ]
 }
