@@ -8,12 +8,42 @@
     <language>en</language>
     <generator>Rob AI Listening Briefing feed builder</generator>
     <ttl>60</ttl>
-    <lastBuildDate>Wed, 16 Sep 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 18:00:00 +0000</lastBuildDate>
     <itunes:author>AI Listening Briefing</itunes:author>
     <itunes:summary>A serious weekly AI listening programme curated from original podcast publishers.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>yes</itunes:block>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>[1/2] Module 2: Inside the Transformer -The Math That Makes Attention Work — The AI Concepts Podcast</title>
+      <description>Edition: 2026-09-17 — Daily 4: Attention without the jargon, then stress-testing the AI panic
+
+Why it matters: This is the clean next lesson after tokens and embeddings. In about twelve minutes, Shay Dhar explains the transformer's attention mechanism in plain language, then introduces queries, keys and values, dot products, softmax and weighted sums without assuming ML fluency. It is unusually close to the concise, concept-by-concept teaching style that made Fragmented 303 work so well for you.
+
+Source: The AI Concepts Podcast
+Original publication: 2026-01-03T21:17:36Z</description>
+      <link>https://podcasts.apple.com/us/podcast/module-2-inside-the-transformer-the-math-that/id1778370256?i=1000743642162&amp;uo=4</link>
+      <pubDate>Thu, 17 Sep 2026 18:00:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-96bbffe58f70ed339c402e9f</guid>
+      <enclosure url="https://mcdn.podbean.com/mf/web/7m4acj7gfprukrrk/Mod_2_Ep_76nzvw-ktbnyw-Optimized.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>00:11:58</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>[2/2] Our Great Big AI Freakout — Today, Explained</title>
+      <description>Edition: 2026-09-17 — Daily 4: Attention without the jargon, then stress-testing the AI panic
+
+Why it matters: The frontier slot deliberately challenges the safety-heavy sequence of the past few days. Vox's Sean Rameswaram and Wired senior writer Maxwell Zeff examine the new calls from AI insiders to slow frontier development, including the real evidence from agent-control incidents, while also asking whether labs benefit reputationally and competitively from framing themselves as builders of uniquely dangerous technology. The point is not to dismiss the incidents or accept existential-risk claims: it is to separate observed failures from extrapolations about future catastrophe, and technical evidence from incentives and politics.
+
+Source: Today, Explained
+Original publication: 2026-09-15T18:03:00Z</description>
+      <link>https://podcasts.apple.com/us/podcast/our-great-big-ai-freakout/id1346207297?i=1000789825008&amp;uo=4</link>
+      <pubDate>Thu, 17 Sep 2026 17:59:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-062f29e52c437744b73f3ceb</guid>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP6031818488.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>00:25:39</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>[1/2] An Agent Is Just an LLM in a For-Loop — The Data Exchange with Ben Lorica</title>
       <description>Edition: 2026-09-16 — Daily 3: From embeddings to attention and agents, then who grades the models?
