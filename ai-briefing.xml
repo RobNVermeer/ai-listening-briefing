@@ -8,12 +8,42 @@
     <language>en</language>
     <generator>Rob AI Listening Briefing feed builder</generator>
     <ttl>60</ttl>
-    <lastBuildDate>Thu, 17 Sep 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 18:00:00 +0000</lastBuildDate>
     <itunes:author>AI Listening Briefing</itunes:author>
     <itunes:summary>A serious weekly AI listening programme curated from original podcast publishers.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>yes</itunes:block>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>[1/2] Sharon Zhou on Post-Training — Generative AI in the Real World</title>
+      <description>Edition: 2026-09-18 — Daily 5: What post-training actually does, then a reality check on recursive self-improvement
+
+Why it matters: Now that tokens, embeddings and attention have a mental model, move to the second major phase of building a useful LLM. AMD VP of AI Sharon Zhou starts with a plain-language definition of post-training and explains how a pretrained next-token predictor becomes an assistant that follows instructions, uses tools and reasons. The discussion introduces supervised fine-tuning, reinforcement learning, in-context learning and RAG through their practical purpose rather than as a wall of acronyms.
+
+Source: Generative AI in the Real World
+Original publication: 2026-03-18T22:15:31Z</description>
+      <link>https://podcasts.apple.com/us/podcast/sharon-zhou-on-post-training/id1835476293?i=1000756047798&amp;uo=4</link>
+      <pubDate>Fri, 18 Sep 2026 18:00:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-ccaaa675cc287ab9d00fa50b</guid>
+      <enclosure url="https://anchor.fm/s/10848eca8/podcast/play/116878126/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-13%2F419954410-44100-2-eda1fddc739c8.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>00:37:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>[2/2] Are We About to Lose Control of AI? | AI Reality Check — Deep Questions with Cal Newport</title>
+      <description>Edition: 2026-09-18 — Daily 5: What post-training actually does, then a reality check on recursive self-improvement
+
+Why it matters: Anthropic's new September disclosure says Claude now leads 26% of its AI R&amp;D projects and participates in roughly 90%, reviving the recursive-self-improvement narrative. Cal Newport provides a useful skeptical audit of the underlying inference: faster AI-assisted coding and research workflows are evidence of automation, but not by themselves evidence that an AI can autonomously invent the algorithmic breakthroughs needed to build a substantially smarter successor. Use this as a counterweight, not a final verdict: his June analysis predates Anthropic's newest 26% figure, so today's stronger evidence raises the bar for the skeptical case without yet demonstrating a self-sustaining improvement loop.
+
+Source: Deep Questions with Cal Newport
+Original publication: 2026-06-11T10:00:00Z</description>
+      <link>https://podcasts.apple.com/us/podcast/are-we-about-to-lose-control-of-ai-ai-reality-check/id1515786216?i=1000772191289&amp;uo=4</link>
+      <pubDate>Fri, 18 Sep 2026 17:59:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-0add218d87297c2ab026eaf5</guid>
+      <enclosure url="https://pscrb.fm/rss/p/mgln.ai/e/441/claritaspod.com/measure/prfx.byspotify.com/e/traffic.megaphone.fm/BVLLC7960122404.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>00:20:37</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>[1/2] Module 2: Inside the Transformer -The Math That Makes Attention Work — The AI Concepts Podcast</title>
       <description>Edition: 2026-09-17 — Daily 4: Attention without the jargon, then stress-testing the AI panic
