@@ -8,12 +8,42 @@
     <language>en</language>
     <generator>Rob AI Listening Briefing feed builder</generator>
     <ttl>60</ttl>
-    <lastBuildDate>Fri, 18 Sep 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 18:00:00 +0000</lastBuildDate>
     <itunes:author>AI Listening Briefing</itunes:author>
     <itunes:summary>A serious weekly AI listening programme curated from original podcast publishers.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>yes</itunes:block>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>[1/2] It's RAG time: Retrieval-Augmented Generation — Linear Digressions</title>
+      <description>Edition: 2026-09-19 — Daily 6: RAG in plain English, then can AI labs police themselves?
+
+Why it matters: This is the next clean curriculum step after post-training and an unusually good fit for the Fragmented-303 teaching style: Katie Malone explains RAG for the intelligently curious, starting from the familiar experience of letting an AI answer questions over your own documents. Focus on the distinction between changing a model's weights and changing the context it sees at inference time, then add retrieval, embeddings/vector search, chunks and grounding to your vocabulary.
+
+Source: Linear Digressions
+Original publication: 2026-03-02T02:12:11Z</description>
+      <link>https://podcasts.apple.com/us/podcast/its-rag-time-retrieval-augmented-generation/id941219323?i=1000752382803&amp;uo=4</link>
+      <pubDate>Sat, 19 Sep 2026 18:00:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-a6c61edced3ea873be4cc870</guid>
+      <enclosure url="https://feeds.soundcloud.com/stream/2271342293-linear-digressions-its-rag-time-retrieval.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>00:17:14</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>[2/2] Automattic's 33-Hour coup, and can AI labs police themselves? — Equity</title>
+      <description>Edition: 2026-09-19 — Daily 6: RAG in plain English, then can AI labs police themselves?
+
+Why it matters: Dario Amodei's new 'pace the frontier' proposal has become the week's central AI-governance claim. TechCrunch's Equity team examines the concrete mechanism—embedded independent evaluators with deep lab access—alongside Jensen Huang's pushback and the uncomfortable incentive question of whether frontier labs should help design the rules that constrain their competitors. Use it as a current counter-perspective on Anthropic's safety case: the incidents and rapid capability gains are real evidence, but they do not by themselves establish Amodei's strongest catastrophe forecasts or prove that industry-coordinated slowing is the right policy response.
+
+Source: Equity
+Original publication: 2026-09-18T16:40:00Z</description>
+      <link>https://podcasts.apple.com/us/podcast/automattics-33-hour-coup-and-can-ai-labs-police-themselves/id1215439780?i=1000790544512&amp;uo=4</link>
+      <pubDate>Sat, 19 Sep 2026 17:59:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-09fb60de6abfcf04b031ea80</guid>
+      <enclosure url="https://traffic.megaphone.fm/TCML6234289555.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>00:35:52</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>[1/2] Sharon Zhou on Post-Training — Generative AI in the Real World</title>
       <description>Edition: 2026-09-18 — Daily 5: What post-training actually does, then a reality check on recursive self-improvement
