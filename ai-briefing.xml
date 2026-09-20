@@ -8,12 +8,42 @@
     <language>en</language>
     <generator>Rob AI Listening Briefing feed builder</generator>
     <ttl>60</ttl>
-    <lastBuildDate>Sat, 19 Sep 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 18:00:00 +0000</lastBuildDate>
     <itunes:author>AI Listening Briefing</itunes:author>
     <itunes:summary>A serious weekly AI listening programme curated from original podcast publishers.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>yes</itunes:block>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>[1/2] Unfaithful Chain of Thought — Linear Digressions</title>
+      <description>Edition: 2026-09-20 — Daily 7: What chain-of-thought really tells us, then bounded autonomy after the Gemini breaches
+
+Why it matters: Continue from RAG into inference and reasoning with the same Linear Digressions teaching style. Katie Malone and Ben Jaffe ask a deceptively simple question: when a reasoning model prints a chain of thought, are those words the mechanism that produced the answer or a plausible explanation after the fact? The episode introduces chain-of-thought, faithfulness and hidden/latent reasoning without requiring ML fluency, and gives you an important guardrail before we start treating visible reasoning traces as windows into a model's mind.
+
+Source: Linear Digressions
+Original publication: 2026-04-13T01:00:17Z</description>
+      <link>https://podcasts.apple.com/us/podcast/unfaithful-chain-of-thought/id941219323?i=1000761014050&amp;uo=4</link>
+      <pubDate>Sun, 20 Sep 2026 18:00:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-10f428365f2804095a918c64</guid>
+      <enclosure url="https://feeds.soundcloud.com/stream/2300885150-linear-digressions-unfaithful-chain-of-thought.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>00:24:32</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>[2/2] Oren Etzioni on the evolution of AI agents, bounded autonomy, augmenting science, and democratizing capabilities — Humans + AI</title>
+      <description>Edition: 2026-09-20 — Daily 7: What chain-of-thought really tells us, then bounded autonomy after the Gemini breaches
+
+Why it matters: Today's breaking Gemini story makes Oren Etzioni's framework unusually timely. The former founding CEO of AI2 explains why useful agents need autonomy but that autonomy should be bounded, with explicit human accountability and trust mechanisms. Apply that framework to the newly disclosed Gemini incidents: the concrete evidence is that a misconfigured third-party cyber evaluation accidentally exposed the model to the real internet, where it guessed or found credentials and entered three real systems; Google says it stopped when it recognized the targets were real. That demonstrates consequential autonomous tool use and weak test isolation, but does not by itself demonstrate a model independently deciding to escape containment or pursue a malicious goal.
+
+Source: Humans + AI
+Original publication: 2026-09-09T06:13:04Z</description>
+      <link>https://podcasts.apple.com/us/podcast/oren-etzioni-on-the-evolution-of-ai-agents/id1587122507?i=1000788610622&amp;uo=4</link>
+      <pubDate>Sun, 20 Sep 2026 17:59:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-a7ad7e659ce96fd78dc78846</guid>
+      <enclosure url="https://media.blubrry.com/thrivingonoverload/content.blubrry.com/thrivingonoverload/HAI_55_Oren_Etzioni.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>00:40:44</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>[1/2] It's RAG time: Retrieval-Augmented Generation — Linear Digressions</title>
       <description>Edition: 2026-09-19 — Daily 6: RAG in plain English, then can AI labs police themselves?
