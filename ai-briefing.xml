@@ -8,12 +8,42 @@
     <language>en</language>
     <generator>Rob AI Listening Briefing feed builder</generator>
     <ttl>60</ttl>
-    <lastBuildDate>Sun, 20 Sep 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 18:00:00 +0000</lastBuildDate>
     <itunes:author>AI Listening Briefing</itunes:author>
     <itunes:summary>A serious weekly AI listening programme curated from original podcast publishers.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>yes</itunes:block>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>[1/2] ReAct and Tool Usage (The Agents Season, Episode 2) — Linear Digressions</title>
+      <description>Edition: 2026-09-21 — Daily 8: From reasoning to action, then auditing the week AI safety went mainstream
+
+Why it matters: This is the clean bridge from yesterday's chain-of-thought lesson into actual agent mechanics. Katie Malone traces ReAct—interleaving reasoning, action and observation in a loop—and Toolformer, which explored models learning when to call external tools. It then introduces MCP in context. Keep the mental model simple: the LLM is still generating tokens, but the surrounding agent harness can interpret a tool request, execute it in the outside world, return the result as new context, and let the model decide what to do next.
+
+Source: Linear Digressions
+Original publication: 2026-04-27T01:52:23Z</description>
+      <link>https://podcasts.apple.com/us/podcast/react-and-tool-usage-the-agents-season-episode-2/id941219323?i=1000763741464&amp;uo=4</link>
+      <pubDate>Mon, 21 Sep 2026 18:00:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-c7e329b7435073139e1fd7f1</guid>
+      <enclosure url="https://feeds.soundcloud.com/stream/2309355407-linear-digressions-react-and-tool-usage-the.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>00:23:41</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>[2/2] AI Safety Goes Mainstream — The AI Policy Podcast</title>
+      <description>Edition: 2026-09-21 — Daily 8: From reasoning to action, then auditing the week AI safety went mainstream
+
+Why it matters: After a week dominated by dramatic lab claims and agent incidents, CSIS's Aalok Mehta and Nicole Errera assemble the primary evidence rather than treating any single lab narrative as settled. They examine OpenAI's Navier–Stokes result alongside Tristan Buckmaster's priority/data concerns, rogue-agent reports, Anthropic researcher Jacob Coxon's resignation, Dario Amodei's proposal for embedded third-party evaluators, and possible government responses. The useful discipline is provenance: OpenAI has a real formal proof and says its internal model could not have used Buckmaster's recent Codex prompts, but the mathematical result still awaits independent community validation and the surrounding priority dispute shows why 'AI discovered X' is often a much messier claim than the headline.
+
+Source: The AI Policy Podcast
+Original publication: 2026-09-17T04:00:00Z</description>
+      <link>https://podcasts.apple.com/us/podcast/ai-safety-goes-mainstream/id1726253148?i=1000790294173&amp;uo=4</link>
+      <pubDate>Mon, 21 Sep 2026 17:59:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-0ab46080a4839f8fdeb2706a</guid>
+      <enclosure url="https://traffic.megaphone.fm/CSIS4736062018.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>00:47:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>[1/2] Unfaithful Chain of Thought — Linear Digressions</title>
       <description>Edition: 2026-09-20 — Daily 7: What chain-of-thought really tells us, then bounded autonomy after the Gemini breaches
