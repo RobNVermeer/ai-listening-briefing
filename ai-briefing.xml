@@ -8,12 +8,42 @@
     <language>en</language>
     <generator>Rob AI Listening Briefing feed builder</generator>
     <ttl>60</ttl>
-    <lastBuildDate>Mon, 21 Sep 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 18:00:00 +0000</lastBuildDate>
     <itunes:author>AI Listening Briefing</itunes:author>
     <itunes:summary>A serious weekly AI listening programme curated from original podcast publishers.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>yes</itunes:block>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>[1/2] Memory Management for AI Agents (The Agents Season, Episode 4) — Linear Digressions</title>
+      <description>Edition: 2026-09-22 — Daily 9: How agents remember, then drawing a hard line around recursive self-improvement
+
+Why it matters: Now that ReAct and tool use are clear, add the next piece of the agent harness: memory. Katie Malone explains why a large context window is not the same thing as reliable memory, how important information can get lost as a task grows, and how agent systems decide what to retain, retrieve, summarize or discard. Keep the distinction clear: model weights are long-term learned parameters; the context window is the model's current working material; agent memory is external state deliberately managed by the surrounding system.
+
+Source: Linear Digressions
+Original publication: 2026-05-10T15:33:36Z</description>
+      <link>https://podcasts.apple.com/us/podcast/memory-management-for-ai-agents-the-agents-season-episode-4/id941219323?i=1000767061332&amp;uo=4</link>
+      <pubDate>Tue, 22 Sep 2026 18:00:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-a8a8f94a3171105bce7184cb</guid>
+      <enclosure url="https://feeds.soundcloud.com/stream/2318075642-linear-digressions-memory-management-for-ai.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>00:24:41</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>[2/2] We Can't Lose Control of A.I. — The Ezra Klein Show</title>
+      <description>Edition: 2026-09-22 — Daily 9: How agents remember, then drawing a hard line around recursive self-improvement
+
+Why it matters: Ezra Klein makes the strongest version of a policy argument that has emerged from the recent agent-control incidents: slowing frontier development is not enough; labs should be prevented from handing over AI-model development to AI itself. This is an argument, not a demonstrated technical threshold. The evidence beneath it includes real agent boundary violations, evaluation gaming and rapidly increasing AI involvement in AI R&amp;D, but none of those observations yet proves a self-sustaining recursive-improvement loop. Listen for the key distinction between AI accelerating human-led R&amp;D and AI autonomously producing the conceptual, experimental and engineering advances required to build a substantially more capable successor.
+
+Source: The Ezra Klein Show
+Original publication: 2026-09-20T04:55:00Z</description>
+      <link>https://podcasts.apple.com/us/podcast/we-cant-lose-control-of-a-i/id1548604447?i=1000790744856&amp;uo=4</link>
+      <pubDate>Tue, 22 Sep 2026 17:59:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-fb8e5789e4505721e990a0fe</guid>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3026b665-46df-4d18-98e9-d1ce16bbb1df/episodes/24eb71b8-cd6c-4b13-9130-0a047930ef2a/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=3026b665-46df-4d18-98e9-d1ce16bbb1df&amp;awEpisodeId=24eb71b8-cd6c-4b13-9130-0a047930ef2a&amp;feed=kEKXbjuJ" length="0" type="audio/mpeg" />
+      <itunes:duration>00:31:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>[1/2] ReAct and Tool Usage (The Agents Season, Episode 2) — Linear Digressions</title>
       <description>Edition: 2026-09-21 — Daily 8: From reasoning to action, then auditing the week AI safety went mainstream
