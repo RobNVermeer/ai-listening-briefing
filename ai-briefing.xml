@@ -8,12 +8,42 @@
     <language>en</language>
     <generator>Rob AI Listening Briefing feed builder</generator>
     <ttl>60</ttl>
-    <lastBuildDate>Tue, 22 Sep 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 18:00:00 +0000</lastBuildDate>
     <itunes:author>AI Listening Briefing</itunes:author>
     <itunes:summary>A serious weekly AI listening programme curated from original podcast publishers.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>yes</itunes:block>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>[1/2] Agentic Planning (The Agents Season, Episode 5) — Linear Digressions</title>
+      <description>Edition: 2026-09-23 — Daily 10: How agents plan, then a serious debate about recursive self-improvement
+
+Why it matters: Continue directly from agent memory into planning. Katie Malone explains why a multi-step agent needs more than a reactive ReAct loop: it must represent a goal, explore possible paths, choose intermediate steps, notice when a route is failing and backtrack or re-plan. The episode uses Tree of Thoughts and classic problem-space ideas to introduce deliberate planning without assuming ML expertise. Keep the mental distinction clear: reasoning is producing useful intermediate computation; planning is organizing actions across time toward a goal; re-planning is updating that route when observations show the original plan is wrong.
+
+Source: Linear Digressions
+Original publication: 2026-05-18T02:13:21Z</description>
+      <link>https://podcasts.apple.com/us/podcast/agentic-planning-the-agents-season-episode-5/id941219323?i=1000768327445&amp;uo=4</link>
+      <pubDate>Wed, 23 Sep 2026 18:00:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-0015d40475e9b4455695be21</guid>
+      <enclosure url="https://feeds.soundcloud.com/stream/2322083060-linear-digressions-agentic-planning-the-agents.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>00:24:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>[2/2] Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI — Interconnects</title>
+      <description>Edition: 2026-09-23 — Daily 10: How agents plan, then a serious debate about recursive self-improvement
+
+Why it matters: Yesterday's Ezra Klein episode argued for a hard policy line around AI systems improving their successors. Today, Nathan Lambert and Epoch AI's JS Denain directly debate how plausible recursive self-improvement actually is, starting with their predictions and uncertainties rather than a lab launch narrative. This is the right counterpoint because both take rapid AI progress seriously while questioning how much current AI-assisted research establishes a self-sustaining feedback loop. Listen for the evidence gap between models being excellent at narrow, verifiable research and engineering tasks versus coordinating the messy, jagged, multi-objective process required to build a substantially better frontier model; also note the possible bottlenecks from robotics, experiments, compute, human judgment and organizational complexity.
+
+Source: Interconnects
+Original publication: 2026-09-22T13:37:45Z</description>
+      <link>https://podcasts.apple.com/us/podcast/debating-rsi-the-us-china-gap-and-jaggedness-with/id1719552353?i=1000791115264&amp;uo=4</link>
+      <pubDate>Wed, 23 Sep 2026 17:59:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-9a2a37686f8e2a6b72fb9cd2</guid>
+      <enclosure url="https://pscrb.fm/rss/p/prfx.byspotify.com/e/claritaspod.com/measure/api.substack.com/feed/podcast/216367194/0da797daf831f7a41b6e39513ab26958.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>01:05:29</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>[1/2] Memory Management for AI Agents (The Agents Season, Episode 4) — Linear Digressions</title>
       <description>Edition: 2026-09-22 — Daily 9: How agents remember, then drawing a hard line around recursive self-improvement
