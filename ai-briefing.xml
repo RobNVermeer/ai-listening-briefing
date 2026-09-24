@@ -8,12 +8,42 @@
     <language>en</language>
     <generator>Rob AI Listening Briefing feed builder</generator>
     <ttl>60</ttl>
-    <lastBuildDate>Wed, 23 Sep 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 18:00:00 +0000</lastBuildDate>
     <itunes:author>AI Listening Briefing</itunes:author>
     <itunes:summary>A serious weekly AI listening programme curated from original podcast publishers.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>yes</itunes:block>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>[1/2] AI Agent Failure Modes (The Agents Season, Episode 6) — Linear Digressions</title>
+      <description>Edition: 2026-09-24 — Daily 11: How agents fail, then what real spending says about AI adoption
+
+Why it matters: After tools, memory and planning, deliberately study the ways the whole agent loop breaks before moving into formal evaluation. Katie Malone maps failures that can arise from reasoning, planning, tool use and long-horizon execution, including errors that cascade across steps even when no single step looks catastrophic. The goal is to replace the vague idea that an agent 'hallucinates' with a more useful systems view: identify where in the trajectory the failure began, how later actions amplified it, and whether the agent can detect and recover from its own mistakes.
+
+Source: Linear Digressions
+Original publication: 2026-05-25T01:15:11Z</description>
+      <link>https://podcasts.apple.com/us/podcast/ai-agent-failure-modes-the-agents-season-episode-6/id941219323?i=1000769410971&amp;uo=4</link>
+      <pubDate>Thu, 24 Sep 2026 18:00:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-727028c02401f2d48e5ae92f</guid>
+      <enclosure url="https://feeds.soundcloud.com/stream/2326598789-linear-digressions-ai-agent-failure-modes-the.mp3" length="0" type="audio/mpeg" />
+      <itunes:duration>00:32:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>[2/2] The AI Series: Adoption Ramps Up — Moody's Talks - Inside Economics</title>
+      <description>Edition: 2026-09-24 — Daily 11: How agents fail, then what real spending says about AI adoption
+
+Why it matters: This is a data-based counterweight to this week's frontier-model launches and dramatic price cuts. Ramp lead economist Ara Kharazian joins Moody's economists to use real business-spending data to ask who is actually buying AI, how concentrated adoption is, which model providers are gaining share, how falling token prices affect spend, and why broad productivity effects can remain hard to see even while a subset of firms adopts aggressively. Treat Ramp's card-and-spend data as unusually concrete but not universal: it observes its own customer base and spending flows, not every firm's internal AI usage or productivity. The useful distinction is between cheaper model inputs, measured enterprise adoption, intensive usage by a minority of firms, and economy-wide productivity—four things that headlines often collapse into one.
+
+Source: Moody's Talks - Inside Economics
+Original publication: 2026-09-08T21:00:00Z</description>
+      <link>https://podcasts.apple.com/us/podcast/the-ai-series-adoption-ramps-up/id1559966912?i=1000788534818&amp;uo=4</link>
+      <pubDate>Thu, 24 Sep 2026 17:59:00 +0000</pubDate>
+      <guid isPermaLink="false">rob-ai-briefing-28e3f9ab1fa980b418b4272d</guid>
+      <enclosure url="https://afp-922722-injected.calisto.simplecastaudio.com/411a7612-6f84-4cde-a10a-44f7817d62ef/episodes/60b6a706-65a8-450b-b75c-2bd4af4044e5/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=411a7612-6f84-4cde-a10a-44f7817d62ef&amp;awEpisodeId=60b6a706-65a8-450b-b75c-2bd4af4044e5&amp;feed=4LZRim3c" length="0" type="audio/mpeg" />
+      <itunes:duration>00:57:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>[1/2] Agentic Planning (The Agents Season, Episode 5) — Linear Digressions</title>
       <description>Edition: 2026-09-23 — Daily 10: How agents plan, then a serious debate about recursive self-improvement
